@@ -1,0 +1,104 @@
+body {
+    padding: 2em 10%;
+    font-family: Roboto, Calibri, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: calc(1em * 1.5);
+    letter-spacing: normal;
+    word-spacing: calc(1em * .16);
+}
+
+/**
+ * headings
+ */
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 150%;
+}
+
+h4, h5 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/**
+ * All screenshots
+ */
+figure {
+    background-color: #eee;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 50%;
+}
+
+figure img {
+    background-color: #eee;
+    padding: 1em;
+    max-width: 600px;
+    max-height: 500px;
+}
+
+figure figcaption {
+    padding: 1em;
+    font-size: .9em;
+    text-align: left;
+    background-color: #eee;
+
+}
+
+/**
+ * Other typography
+ */
+.subtitle {
+    font-size: 90%;
+    color: #666;
+}
+
+sup a {
+    font-size: .9em;
+    line-height: 0;
+}
+
+/**
+ * Tables
+ */
+table {
+    border: 0;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    padding: .3em;
+}
+
+thead th, thead td {
+    background-color: #eee;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+td:empty {
+    height: 1em;
+}
+
+/**
+ * Print styles, whee!
+ */
+@media print {
+    header {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
