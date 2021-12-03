@@ -113,6 +113,11 @@ p{
     margin-top: 0;
 }
 
+#mainarticleheadline{
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
 #endnotes{
     list-style-type: none;
 }
