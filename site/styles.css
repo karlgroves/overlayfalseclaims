@@ -1,0 +1,180 @@
+body {
+    padding: 1em 5%;
+    font-family: Calibri, Helvetica, Roboto sans-serif;
+    font-size: 1.1em;
+    line-height: calc(1em * 1.5);
+    letter-spacing: normal;
+    word-spacing: calc(1em * .16);
+    background-color: #ddd;
+}
+
+/**
+ * Skip Link
+ */
+#skiplink {
+    margin-top: -80px;
+    background-color: #fff;
+    left: 50%;
+    padding: 1em;
+    position: absolute;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+}
+
+#skiplink:focus {
+    margin-top: -50px;
+    transform: translateY(0%);
+}
+/**
+* Navigation
+ */
+
+nav ul, nav ul li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li a{
+    font-size: 1.1em;
+    margin-right: 2em;
+}
+
+/**
+ * Layout stuff
+ */
+#wrap{
+    background-color: #fff;
+    padding: 3em;
+}
+
+#tagline{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+#appendixnavlist li, #appendixnavlist li a{
+    display: inline;
+    margin-right: .5em;
+    font-size: .93em;
+}
+
+/**
+ * headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    line-height: 150%;
+}
+
+h4, h5 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+
+h2,h3,h4,h5,h6{
+    color: #333;
+}
+
+
+
+
+/**
+ * All screenshots
+ */
+figure {
+    background-color: #eee;
+    margin: 2em;
+    text-align: center;
+}
+
+figure img {
+    background-color: #eee;
+    padding: 1em;
+    max-width: 600px;
+    max-height: 500px;
+}
+
+figure figcaption {
+    padding: 1em;
+    font-size: .9em;
+    text-align: left;
+    background-color: #eee;
+
+}
+
+/**
+ * Other typography
+ */
+.subtitle {
+    font-size: 90%;
+    color: #666;
+}
+
+sup a {
+    font-size: .9em;
+    line-height: 0;
+}
+
+p{
+    margin-top: 0;
+}
+
+#mainarticleheadline{
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+#endnotes{
+    list-style-type: none;
+}
+
+#endnotes li{
+    margin-bottom: 1em;
+}
+
+/**
+ * Tables
+ */
+table {
+    border: 0;
+    border-collapse: collapse;
+}
+
+td, th {
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #ccc;
+    padding: .3em;
+}
+
+thead th, thead td {
+    background-color: #eee;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+td:empty {
+    height: 1em;
+}
+
+/**
+ * Print styles, whee!
+ */
+@media print {
+    header {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    footer {
+        display: none;
+    }
+
+}
