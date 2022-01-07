@@ -414,6 +414,10 @@ caption {
     background-color: var(--color-nav-border) !important;
 }
 
+.footer ul ol {
+    list-style-type: lower-alpha;
+}
+
 .footer ul li {
     color: var(--color-gray-200);
 }
