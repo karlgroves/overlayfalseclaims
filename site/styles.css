@@ -157,11 +157,11 @@ ul {
 
 figure,
 table {
-    margin-top: 3.5rem;
+    margin: 3.5rem 0.5rem 0 0.5rem;
 }
 
 table {
-    margin-bottom: 3.5rem;
+    margin-bottom: 0.75rem;
 }
 
 
@@ -220,6 +220,7 @@ table {
     border: 0;
     border-collapse: collapse;
     line-height: var(--line-height-300);
+    width: 100%;
 }
 
 td, th {
