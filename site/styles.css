@@ -441,6 +441,11 @@ caption {
         font-size: var(--font-size-300);
     }
 
+    figcaption {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
     .page {
         padding: 8rem 6rem;
     }
