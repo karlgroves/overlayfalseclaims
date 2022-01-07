@@ -157,11 +157,11 @@ ul {
 
 figure,
 table {
-    margin-top: 3.5rem;
+    margin: 3.5rem 0.5rem 0 0.5rem;
 }
 
 table {
-    margin-bottom: 3.5rem;
+    margin-bottom: 0.75rem;
 }
 
 
@@ -220,6 +220,7 @@ table {
     border: 0;
     border-collapse: collapse;
     line-height: var(--line-height-300);
+    width: 100%;
 }
 
 td, th {
@@ -414,6 +415,10 @@ caption {
     background-color: var(--color-nav-border) !important;
 }
 
+.footer ul ol {
+    list-style-type: lower-alpha;
+}
+
 .footer ul li {
     color: var(--color-gray-200);
 }
@@ -435,6 +440,11 @@ caption {
 @media screen and (min-width: 50em) {
     body {
         font-size: var(--font-size-300);
+    }
+
+    figcaption {
+        padding-right: 2rem;
+        padding-left: 2rem;
     }
 
     .page {
